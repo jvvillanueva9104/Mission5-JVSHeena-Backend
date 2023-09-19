@@ -2,7 +2,7 @@ import express from "express";
 import cors from "cors";
 import bodyParser from "body-parser";
 import { dbConnect } from "./db/dbConnect";
-import productFinder from "./routes/productRoutes";
+import { productFinder, descriptionFinder } from "./routes/productRoutes";
 
 const app = express();
 
@@ -12,6 +12,7 @@ app.use(bodyParser.json());
 dbConnect();
 
 app.use("/", productFinder);
+app.use("/", descriptionFinder);
 
 const port = 4000;
 app.listen(4000, () => {

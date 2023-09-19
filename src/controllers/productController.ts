@@ -3,6 +3,7 @@
 // Path: backend/src/controllers/productController.ts
 import { Request, Response } from "express";
 import Laptop from "../models/pbtechSchema";
+import Description from "../models/productDescription";
 
 const log = console.log;
 
@@ -26,18 +27,22 @@ export const getProducts = async (req: Request, res: Response) => {
   }
 };
 
-// const products = laptops.map((laptop, index) => {
-//   return {
-//     id: laptop._id,
-//     brand: laptop.brand,
-//     model: laptop.model,
-//     screen_size: laptop.screen_size,
-//     storage: laptop.storage,
-//     RAM: laptop.RAM,
-//     CPU: laptop.CPU,
-//     OS: laptop.OS,
-//     GPU: laptop.GPU,
-//     price: laptop.price,
-//     image: base64Images[index],
-//   };
-// });
+export const getProducts2 = async (req: Request, res: Response) => {
+  try {
+    const description = await Description.find();
+
+    const base64Images = description.map((desc) => {
+      if (typeof desc.image && desc.image instanceof Buffer) {
+        const base64Image = desc.image.toString("base64");
+        return { ...desc.toObject(), image: base64Image };
+      } else {
+        console.warn("Image is not a buffer:", desc.image);
+        return desc;
+      }
+    });
+    log("Found products with base64Images", base64Images);
+    res.json({ products: base64Images });
+  } catch (err) {
+    log("No data found", err);
+  }
+};

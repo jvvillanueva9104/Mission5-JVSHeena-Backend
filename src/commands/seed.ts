@@ -9,6 +9,18 @@ export const seedCmd = async () => {
   try {
     const seedMsg = [
       {
+        brand: "Apple",
+        model: "MacBook Pro 2022",
+        screen_size: 16,
+        storage: 1024,
+        RAM: 16,
+        CPU: "Intel Core i7-11800H",
+        OS: "macOS Monterey",
+        GPU: "AMD Radeon Pro 6600M",
+        price: 2999,
+        image: readFile("macbookpro2022.webp"),
+      },
+      {
         brand: "MSI",
         model: "MSI GF63 Thin",
         screen_size: 15.6,
