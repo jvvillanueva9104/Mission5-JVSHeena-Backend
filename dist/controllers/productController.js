@@ -13,8 +13,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.getProducts = void 0;
+exports.getProducts2 = exports.getProducts = void 0;
 const pbtechSchema_1 = __importDefault(require("../models/pbtechSchema"));
+const productDescription_1 = __importDefault(require("../models/productDescription"));
 const log = console.log;
 const getProducts = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
@@ -37,19 +38,23 @@ const getProducts = (req, res) => __awaiter(void 0, void 0, void 0, function* ()
     }
 });
 exports.getProducts = getProducts;
-// const products = laptops.map((laptop, index) => {
-//   return {
-//     id: laptop._id,
-//     brand: laptop.brand,
-//     model: laptop.model,
-//     screen_size: laptop.screen_size,
-//     storage: laptop.storage,
-//     RAM: laptop.RAM,
-//     CPU: laptop.CPU,
-//     OS: laptop.OS,
-//     GPU: laptop.GPU,
-//     price: laptop.price,
-//     image: base64Images[index],
-//   };
-// });
+const getProducts2 = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
+    try {
+        const description = yield productDescription_1.default.find();
+        const base64Images = description.map((desc) => {
+            if (typeof desc.image && desc.image instanceof Buffer) {
+                const base64Image = desc.image.toString("base64");
+                return Object.assign(Object.assign({}, desc.toObject()), { image: base64Image });
+            }
+            else {
+                console.warn("Image is not a buffer:", desc.image);
+                return desc;
+            }
+        });
+    }
+    catch (err) {
+        log("No data found", err);
+    }
+});
+exports.getProducts2 = getProducts2;
 //# sourceMappingURL=productController.js.map
