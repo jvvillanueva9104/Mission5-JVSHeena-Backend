@@ -51,6 +51,8 @@ const getProducts2 = (req, res) => __awaiter(void 0, void 0, void 0, function* (
                 return desc;
             }
         });
+        log("Found products with base64Images", base64Images);
+        res.json({ products: base64Images });
     }
     catch (err) {
         log("No data found", err);

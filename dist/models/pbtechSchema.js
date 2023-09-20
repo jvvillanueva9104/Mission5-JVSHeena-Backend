@@ -58,7 +58,7 @@ const pbtechSchema = new mongoose_1.Schema({
         required: true,
     },
     price: {
-        type: Number,
+        type: String,
         required: true,
     },
     image: {
@@ -66,6 +66,6 @@ const pbtechSchema = new mongoose_1.Schema({
         required: true,
     },
 });
-const Laptop = mongoose_1.default.model("Laptop", pbtechSchema);
+const Laptop = mongoose_1.default.model('Laptop', pbtechSchema);
 exports.default = Laptop;
 //# sourceMappingURL=pbtechSchema.js.map
