@@ -17,7 +17,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i5-9300H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce GTX 1650",
-        price: 1499,
+        price: "1,499",
         image: readFile("msigf63.webp"),
       },
 
@@ -30,7 +30,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i5-11300H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce GTX 1650",
-        price: 1599,
+        price: "1,599",
         image: readFile("msigf63thin.webp"),
       },
 
@@ -43,7 +43,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i5-10300H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce GTX 1650",
-        price: 1599,
+        price: "1,599",
         image: readFile("tuff15.webp"),
       },
 
@@ -56,7 +56,7 @@ export const seedCmd = async () => {
         CPU: "AMD Ryzen 7 4800HS",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce GTX 1650",
-        price: 1999,
+        price: "1,999",
         image: readFile("zephyrusg14.webp"),
       },
 
@@ -69,7 +69,7 @@ export const seedCmd = async () => {
         CPU: "AMD Ryzen 7 5800H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce GTX 4060",
-        price: 2499,
+        price: "2,499",
         image: readFile("lenovolegionslim5.webp"),
       },
 
@@ -82,7 +82,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-11800H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 3060",
-        price: 2499,
+        price: "2,499",
         image: readFile("msicyborg15.webp"),
       },
 
@@ -95,7 +95,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-11800H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 3070",
-        price: 2999,
+        price: "2,999",
         image: readFile("razerblade15.webp"),
       },
 
@@ -108,7 +108,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-11800H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 3070",
-        price: 2999,
+        price: "2,999",
         image: readFile("tuff15.1.webp"),
       },
 
@@ -121,7 +121,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-13620H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4060",
-        price: 2999,
+        price: "2,999",
         image: readFile("msikatana17.webp"),
       },
 
@@ -134,7 +134,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-13500HX",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4050",
-        price: 1899,
+        price: "1,899",
         image: readFile("hpvictus16.webp"),
       },
 
@@ -147,7 +147,7 @@ export const seedCmd = async () => {
         CPU: "Ryzen 9 7945HX",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4080",
-        price: 4999,
+        price: "4,999",
         image: readFile("zephyrusduo16.webp"),
       },
       {
@@ -159,7 +159,7 @@ export const seedCmd = async () => {
         CPU: "AMD Ryzen 7 7735HS",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 3050",
-        price: 1999,
+        price: "1,999",
         image: readFile("zephyrusg14.1.webp"),
       },
 
@@ -172,7 +172,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-11800H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4050",
-        price: 2999,
+        price: "2,999",
         image: readFile("rogstrixg16.webp"),
       },
 
@@ -185,7 +185,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-11800H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 3050Ti",
-        price: 2999,
+        price: "2,999",
         image: readFile("zenbookpro14.webp"),
       },
 
@@ -198,7 +198,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i5-11300H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce GTX 1650",
-        price: 1599,
+        price: "1,599",
         image: readFile("aspirea715.webp"),
       },
       {
@@ -210,7 +210,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i9-13980HX",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4080",
-        price: 4999,
+        price: "4,999",
         image: readFile("rogstrixscar16.webp"),
       },
       {
@@ -222,7 +222,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i9-13980HX",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4070",
-        price: 3999,
+        price: "3,999",
         image: readFile("rogstrixg16.1.webp"),
       },
       {
@@ -234,7 +234,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-12700H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4050",
-        price: 2999,
+        price: "2,999",
         image: readFile("tuff15.2.webp"),
       },
       {
@@ -246,7 +246,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-13700H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4070",
-        price: 3999,
+        price: "3,999",
         image: readFile("lenovolegionslim5.webp"),
       },
       {
@@ -258,7 +258,7 @@ export const seedCmd = async () => {
         CPU: "Ryzen 9 6900HX",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 3070Ti",
-        price: 2999,
+        price: "2,999",
         image: readFile("razerblade14.webp"),
       },
       {
@@ -270,7 +270,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i5-12450H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4050",
-        price: 2499,
+        price: "2,499",
         image: readFile("msicyborg15.2.webp"),
       },
       {
@@ -282,7 +282,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-12700H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 3050",
-        price: 1999,
+        price: "1,999",
         image: readFile("acernitro5.webp"),
       },
       {
@@ -294,7 +294,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-12650H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4050",
-        price: 2499,
+        price: "2,499",
         image: readFile("acernitro5.1.webp"),
       },
       {
@@ -306,7 +306,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i5-11400H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 3050",
-        price: 1999,
+        price: "1,999",
         image: readFile("msigf63thin.1.webp"),
       },
       {
@@ -318,7 +318,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-12650H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4070",
-        price: 3999,
+        price: "3,999",
         image: readFile("msikatana15.webp"),
       },
       {
@@ -330,7 +330,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-13620H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4050",
-        price: 2999,
+        price: "2,999",
         image: readFile("msikatana15.1.webp"),
       },
       {
@@ -342,7 +342,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-13620H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4050",
-        price: 2999,
+        price: "2,999",
         image: readFile("lenovoloq.webp"),
       },
       {
@@ -354,7 +354,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i5-12450H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 2050",
-        price: 2499,
+        price: "2,499",
         image: readFile("msigf63thin.2.webp"),
       },
 
@@ -367,7 +367,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i9-13900H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4070",
-        price: 5999,
+        price: "5,999",
         image: readFile("msistealth16.webp"),
       },
 
@@ -380,7 +380,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i5-12450H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4070",
-        price: 3999,
+        price: "3,999",
         image: readFile("msikatana15.2.webp"),
       },
       {
@@ -392,7 +392,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-13700HX",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4050",
-        price: 2999,
+        price: "2,999",
         image: readFile("hpvictus16.1.webp"),
       },
       {
@@ -404,7 +404,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-12700H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 3060",
-        price: 2499,
+        price: "2,499",
         image: readFile("hpvictus16.2.webp"),
       },
       {
@@ -416,7 +416,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i5-12450H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 3050",
-        price: 1999,
+        price: "1,999",
         image: readFile("lenovoideapadi3.webp"),
       },
       {
@@ -428,7 +428,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i9-12900HX",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4080",
-        price: 5999,
+        price: "5,999",
         image: readFile("msivector.webp"),
       },
 
@@ -441,7 +441,7 @@ export const seedCmd = async () => {
         CPU: "Ryzen 9 6900HX",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 3070Ti",
-        price: 2999,
+        price: "2,999",
         image: readFile("razerblade14.1.webp"),
       },
       {
@@ -453,7 +453,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i9-13980HX",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4080",
-        price: 5999,
+        price: "5,999",
         image: readFile("rogstrixscar18.webp"),
       },
 
@@ -466,7 +466,7 @@ export const seedCmd = async () => {
         CPU: "Ryzen 9 7940HS",
         OS: "Windows 10 Home",
         GPU: "RX7600S",
-        price: 2999,
+        price: "2,999",
         image: readFile("tuffa16.webp"),
       },
       {
@@ -478,7 +478,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-13620H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4050",
-        price: 2999,
+        price: "2,999",
         image: readFile("msistealth15.webp"),
       },
       {
@@ -490,7 +490,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-13650HX",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4060",
-        price: 2999,
+        price: "2,999",
         image: readFile("rogstrixg16.2.webp"),
       },
       {
@@ -502,7 +502,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i9-13900HX",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4070",
-        price: 4999,
+        price: "4,999",
         image: readFile("alienwarem16.webp"),
       },
       {
@@ -514,7 +514,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i9-13900HX",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4090",
-        price: 9999,
+        price: "9,999",
         image: readFile("razerblade16.webp"),
       },
       {
@@ -526,7 +526,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-13620H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4060",
-        price: 2999,
+        price: "2,999",
         image: readFile("msistealth15.1.webp"),
       },
 
@@ -539,7 +539,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i5-12450H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4050",
-        price: 2499,
+        price: "2,499",
         image: readFile("gigabyteg5.webp"),
       },
       {
@@ -551,7 +551,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-13700HX",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4080",
-        price: 4999,
+        price: "4,999",
         image: readFile("hpomen16.webp"),
       },
       {
@@ -563,7 +563,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-12700H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 3050",
-        price: 1999,
+        price: "1,999",
         image: readFile("acernitro5.2.webp"),
       },
       {
@@ -575,7 +575,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-13700HX",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4050",
-        price: 2999,
+        price: "2,999",
         image: readFile("hpvictus16.3.webp"),
       },
       {
@@ -587,7 +587,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i5-12450H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce GTX 1650",
-        price: 1599,
+        price: "1,599",
         image: readFile("aspirea715.1.webp"),
       },
 
@@ -600,7 +600,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i9-13900H",
         OS: "Windows 10 Home",
         GPU: "NVIDIA GeForce RTX 4050",
-        price: 4999,
+        price: "4,999",
         image: readFile("zenbookpro14duo.webp"),
       },
     ];

@@ -1,4 +1,4 @@
-import mongoose, { Schema } from "mongoose";
+import mongoose, { Schema } from 'mongoose';
 
 const pbtechSchema = new Schema({
   brand: {
@@ -34,7 +34,7 @@ const pbtechSchema = new Schema({
     required: true,
   },
   price: {
-    type: Number,
+    type: String,
     required: true,
   },
   image: {
@@ -43,6 +43,6 @@ const pbtechSchema = new Schema({
   },
 });
 
-const Laptop = mongoose.model("Laptop", pbtechSchema);
+const Laptop = mongoose.model('Laptop', pbtechSchema);
 
 export default Laptop;
