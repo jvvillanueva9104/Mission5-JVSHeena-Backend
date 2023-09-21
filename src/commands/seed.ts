@@ -17,7 +17,7 @@ export const seedCmd = async () => {
         CPU: "Intel Core i7-11800H",
         OS: "macOS Monterey",
         GPU: "AMD Radeon Pro 6600M",
-        price: 2999,
+        price: "2,999",
         image: readFile("macbookpro2022.webp"),
       },
       {
